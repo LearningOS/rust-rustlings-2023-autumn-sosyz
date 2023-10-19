@@ -8,7 +8,6 @@
 
 
 struct ColorClassicStruct {
-    // TODO: Something goes here
     red: u8,
     green: u8,
     blue: u8,
@@ -43,7 +42,6 @@ mod tests {
 
     #[test]
     fn unit_structs() {
-        // TODO: Instantiate a unit-like struct!
         // let unit_like_struct =
         let unit_like_struct = UnitLikeStruct;
         let message = format!("{:?}s are fun!", unit_like_struct);

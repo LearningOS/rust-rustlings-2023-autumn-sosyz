@@ -29,9 +29,7 @@ pub enum Command {
 mod my_module {
     use super::Command;
 
-    // TODO: Complete the function signature!
     pub fn transformer(input: Vec<(String, Command)>) -> Vec<String> {
-        // TODO: Complete the output declaration!
         let mut output: Vec<String> = vec![];
         for (mut string, command) in input.into_iter() {
             match command {
